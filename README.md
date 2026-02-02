@@ -25,7 +25,7 @@ Este proyecto es una implementación avanzada del algoritmo de búsqueda de cami
 Este proyecto fue desarrollado en la asignatura de Sistemas Inteligentes en la Universitat de València en 2023.
 
 ## Heurísticas Implementadas
-La flexibilidad de este proyecto reside en su sistema de heurísticas intercambiables. Mediante el uso de directivas de preprocesador (`#ifdef`) en el archivo `heuristic.cpp`, puedes compilar el programa para usar diferentes métodos de estimación:
+La flexibilidad de este proyecto reside en su sistema de heurísticas intercambiables. Mediante el uso de directivas `heuristic.cpp`, puedes compilar el programa para usar diferentes métodos de estimación:
 
 1.  **Manhattan (`manhattan`):** Basada en la distancia $L_1$. Ideal para entornos donde el movimiento es estrictamente en rejilla.
 2.  **Euclídea (`euclidea`):** Basada en la distancia en línea recta ($L_2$). Es la más precisa para el movimiento diagonal que permite este programa.
