@@ -64,7 +64,7 @@ El programa mostrará el laberinto original y, tras resolverlo, imprimirá el ca
 * **Astar.cpp:** Es el archivo principal y contiene la función `Astar()` que gestiona los nodos y el cálculo de costes.
 * **Maze.cpp / .h:** Implementa la clase `Maze`, encargada de parsear los archivos de entrada, detectar los obstáculos de los laberintos y realizar la impresión formateada en consola.
 * **heuristic.cpp / .h:** Contiene las definiciones de las funciones `h(n)` (heurísticas) protegidas por macros de compilación.
-* **Archivos ent:** Diferentes escenarios de prueba:
+* **Archivos ent:** Diferentes escenarios de prueba (se muestran sus capturas respectivas en la descripción):
     * **entprueba:** Laberinto pequeño para testeo rápido.
     * **enttest1/2:** Casos específicos de bordes y caminos sin salida.
     * **entgrande:** Laberinto de gran tamaño para probar el rendimiento.
