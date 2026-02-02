@@ -42,9 +42,9 @@ Una vez compilado, el comando `make` generará un ejecutable cuyo nombre indica 
 El programa mostrará el laberinto original y, tras resolverlo, imprimirá el camino óptimo marcado con colores en la consola y generará un archivo output.txt con las coordenadas.
 
 ## Estructura de Archivos
-* **Astar.cpp:** Es el archivo principal y contiene la función Astar() que gestiona los nodos y el cálculo de costes.
-* **Maze.cpp / .h:** Implementa la clase Maze, encargada de parsear los archivos de entrada, detectar los obstáculos de los laberintos y realizar la impresión formateada en consola.
-* **heuristic.cpp / .h:** Contiene las definiciones de las funciones h(n) (heurísticas) protegidas por macros de compilación.
+* **Astar.cpp:** Es el archivo principal y contiene la función `Astar()` que gestiona los nodos y el cálculo de costes.
+* **Maze.cpp / .h:** Implementa la clase `Maze`, encargada de parsear los archivos de entrada, detectar los obstáculos de los laberintos y realizar la impresión formateada en consola.
+* **heuristic.cpp / .h:** Contiene las definiciones de las funciones `h(n)` (heurísticas) protegidas por macros de compilación.
 * **Archivos ent:** Diferentes escenarios de prueba:
     * **entprueba:** Laberinto pequeño para testeo rápido.
     * **enttest1/2:** Casos específicos de bordes y caminos sin salida.
@@ -53,4 +53,4 @@ El programa mostrará el laberinto original y, tras resolverlo, imprimirá el ca
 
 ## Notas
 * El algoritmo considera movimientos en 8 direcciones (sus casillas adyacentes). Los desplazamientos diagonales tienen un coste de $\sqrt{2}$, mientras que los ortogonales $1$.
-* El camino seguido se guarda en output.txt en el formato [[R1,C1],...,[Rn,Cn]].
+* El camino seguido se guarda en `output.txt` en el formato `[[R1,C1],...,[Rn,Cn]]`.
