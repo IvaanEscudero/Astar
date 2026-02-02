@@ -14,7 +14,7 @@ Este proyecto es una implementación avanzada del algoritmo de búsqueda de cami
   <img src="laberinto_prueba.png" alt="Laberinto prueba">
 </p>
 <p align="center">
-  <img src="laberinto_grande.png" alt="Laberinto grande">
+  <img src="laberinto_grande.png" alt="Laberinto grande" width="50%">
 </p>
 
 * La casilla azul con `o` es casilla de salida.
