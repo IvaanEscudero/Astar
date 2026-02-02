@@ -6,14 +6,23 @@
 ## Descripción
 Este proyecto es una implementación avanzada del algoritmo de búsqueda de caminos **A* (A-Star)** en C++. El programa es capaz de encontrar la ruta óptima en laberintos cargados desde archivos de texto, permitiendo movimientos en 8 direcciones (incluyendo diagonales) y calculando costes reales de desplazamiento ($1$ para movimientos ortogonales y $\sqrt{2}$ para diagonales).
 
-Este proyecto fue desarrollado en la asignatura de Sistemas Inteligentes en la Universitat de València en 2023.
 
-## Capturas de Pantalla
 
 <p align="center">
   <img src="laberinto_1.png" alt="Laberinto 1">
   <img src="laberinto_2.png" alt="Laberinto 2">
+  <img src="laberinto_prueba.png" alt="Laberinto prueba">
 </p>
+<p align="center">
+  <img src="laberinto_grande.png" alt="Laberinto grande">
+</p>
+
+* La casilla azul con `o` es casilla de salida.
+* Las casillas marrones son el camino elegido por el algoritmo.
+* Las verdes con `*` son las de fin.
+* Las casillas con cruces `X` son obstáculos del laberinto.
+
+Este proyecto fue desarrollado en la asignatura de Sistemas Inteligentes en la Universitat de València en 2023.
 
 ## Heurísticas Implementadas
 La flexibilidad de este proyecto reside en su sistema de heurísticas intercambiables. Mediante el uso de directivas de preprocesador (`#ifdef`) en el archivo `heuristic.cpp`, puedes compilar el programa para usar diferentes métodos de estimación:
