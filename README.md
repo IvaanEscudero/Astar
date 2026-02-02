@@ -26,6 +26,9 @@ Para cambiar la heurística, puedes editar la variable `CHOICE` dentro del archi
 # Limpiar archivos de compilaciones anteriores
 make clean
 
+# Limpiar archivos de compilaciones y ejecutables anteriores
+make allclean
+
 # Compilar el proyecto (usará la heurística definida en el Makefile)
 make
 ```
