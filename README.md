@@ -8,6 +8,13 @@ Este proyecto es una implementación avanzada del algoritmo de búsqueda de cami
 
 Este proyecto fue desarrollado en la asignatura de Sistemas Inteligentes en la Universitat de València en 2023.
 
+## Capturas de Pantalla
+
+<p align="center">
+  <img src="laberinto_1.png" alt="Laberinto 1">
+  <img src="laberinto_2.png" alt="Laberinto 2">
+</p>
+
 ## Heurísticas Implementadas
 La flexibilidad de este proyecto reside en su sistema de heurísticas intercambiables. Mediante el uso de directivas de preprocesador (`#ifdef`) en el archivo `heuristic.cpp`, puedes compilar el programa para usar diferentes métodos de estimación:
 
